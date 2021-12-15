@@ -1,0 +1,32 @@
+.services{
+    .services-container{
+        display:flex;
+
+        >div{
+            width:50%;
+        }
+
+        .services-list{
+            .service-item{
+                list-style-type:none;
+                display: flex;
+                flex-wrap: wrap;
+                
+               >li{
+                    padding-bottom: 63px;
+                    width:50%;
+                    h3{
+                        text-transform: uppercase;
+                        padding-bottom: 26px;
+                    }
+                    ul{
+                        list-style-type: none;
+                        li{
+                            line-height: 2.1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

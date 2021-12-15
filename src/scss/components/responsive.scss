@@ -1,0 +1,185 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    
+    h2{
+        font-size: 38px;
+    }
+
+    .nav-items{
+        display: none !important;
+    }
+
+    // .logo-container{
+    //     padding-left: 20px !important;
+    // }
+    
+    .main-container{
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    .project-filter{
+        ul{
+            li{
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+
+    .header-container{
+       flex-direction: column-reverse;
+       >div{
+           width: 100% !important;
+           margin:none !important;
+           p{
+               width: 100%;
+           }
+       }
+    }
+
+    section{
+        padding: 60px 0;
+    }
+
+    .services-container{
+        flex-direction: column;
+
+        >div{
+            width: 100% !important;
+            p{
+                width: 100%;
+            }
+        }
+
+        .header-intro{
+            padding-bottom:60px;
+        }
+    }
+
+    .header-image{
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1024px) {
+
+    .nav-items{
+        display: none !important;
+    }
+
+    .nav-items-mobile{
+        position: fixed;
+        z-index: 1;
+        background: white;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        list-style-type: none;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s ease-out;
+
+        li{
+            padding-bottom:20px;
+        }
+    }
+
+    .navigation-container{
+        padding: 0px 20px;
+        .logo-container{
+            padding-left: 0px !important;
+        }
+        justify-content: space-between;
+    }
+
+    .hamburger-icon{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        >div{
+            padding: 2px;
+            background:#112D40;
+            margin-bottom: 7.7px;
+        }
+    }
+
+    .close-icon{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        z-index: 999;
+        div:first-child{
+            position: relative;
+            top:10px;
+            transform: rotate(45deg);
+            padding: 2px;
+            background:#112D40;
+            margin-bottom: 7.7px;
+        }
+        div:last-child{
+            position: relative;
+            top:0px;
+            transform: rotate(-45deg);
+            padding: 2px;
+            background:#112D40;
+            margin-bottom: 7.7px;
+        }
+    }
+    
+
+    .header-image{
+        display: none;
+    }
+
+    .header-container{
+        flex-direction: column-reverse;
+        >div{
+            width: 100% !important;
+        }
+
+
+        .header-intro{
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+    }
+
+    .services-container{
+        flex-direction: column;
+
+        .header-intro{
+            padding-bottom:60px;
+        }
+
+        >div{
+            width: 100% !important;
+        }
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

@@ -1,0 +1,17 @@
+.case-studies{
+    overflow: hidden;
+}
+.slider-container{
+    height:508px;
+    .slider-window{
+        height: 100%;
+        display:flex;
+        .case-study{
+            position: relative;
+            height: 100%;
+            flex-shrink: 0;
+            width: 80%;
+            margin-right:50px;
+        }
+    }
+}

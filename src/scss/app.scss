@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+footer , .services , .image-gallery{
+    background: #EDEFF1;
+}
+
+
+section , footer{
+    padding:178px 0;
+}
+.main-container{
+    padding-left: 5.4em;
+    padding-right:5.4em;
+}
+
+a{
+    color:#506473;
+    text-decoration:none;
+}
+
+.header-intro{
+    
+    .section-heading{
+        padding-bottom: 56px;
+    }
+
+
+    .content-link{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        padding-top:64px;
+        position: relative;
+
+        .underline{
+            border-bottom:3px solid #C0345E;
+            animation: link 0.5s ease-out forwards;
+            position: absolute;
+            bottom: -5px;
+        }
+
+        @keyframes link{
+            0%{width:0%;}
+            100%{width: 100%}
+        }
+    }
+}
+
+.display-none{
+    display:none;
+}
+
+@import 'components/header.scss';
+@import 'components/case-studies.scss';
+@import 'components/footer.scss';
+@import 'components/header.scss';
+@import 'components/testimonials.scss';
+@import 'components/image-gallery.scss';
+@import 'components/navigation.scss';
+@import 'components/font-styles.scss';
+@import 'components/services.scss';
+@import 'components/content.scss';
+@import 'components/projects.scss';
+@import 'components/responsive.scss';
